@@ -152,7 +152,7 @@ app.use((req, res, next) => {
   if (req.path === '/health' || req.path === '/v1/models' || req.path === '/') {
     return next();
   }
-
+  console.log('[AUTH] Headers received:', JSON.stringify(req.headers));
   const token = extractBearerToken(req.headers.authorization);
   if (!token || !CLIENT_AUTH_KEY) {
     return res.status(403).json({
