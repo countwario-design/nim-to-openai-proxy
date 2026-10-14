@@ -98,7 +98,11 @@ const MODEL_MAPPING = {
   'llama-vision': 'meta/llama-3.2-11b-vision-instruct',
   'vision': 'meta/llama-3.2-11b-vision-instruct',
   'llama-vision-11b': 'meta/llama-3.2-11b-vision-instruct',
-  'llama-3.2-vision': 'meta/llama-3.2-11b-vision-instruct'
+  'llama-3.2-vision': 'meta/llama-3.2-11b-vision-instruct',
+  'glm-5.3': 'z-ai/glm-5.3',
+  'glm-5.3-flash': 'z-ai/glm-5.3-flash',
+  'deepseek': 'deepseek-ai/deepseek-v4.1-flash',
+  'muse-glimmer': 'meta/muse-glimmer-30b'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
