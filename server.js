@@ -102,7 +102,9 @@ const MODEL_MAPPING = {
   'glm-5.3': 'z-ai/glm-5.3',
   'glm-5.3-flash': 'z-ai/glm-5.3-flash',
   'deepseek': 'deepseek-ai/deepseek-v4.1-flash',
-  'muse-glimmer': 'meta/muse-glimmer-30b'
+  'muse-glimmer': 'meta/muse-glimmer-30b',
+  'nemotron-3.5-super': 'nvidia/nemotron-3.5-super-vl-120b-a12b',
+  'step': 'stepfun-ai/step-5-preview'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
