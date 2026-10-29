@@ -104,7 +104,9 @@ const MODEL_MAPPING = {
   'deepseek': 'deepseek-ai/deepseek-v4.1-flash',
   'muse-glimmer': 'meta/muse-glimmer-30b',
   'nemotron-3.5-super': 'nvidia/nemotron-3.5-super-vl-120b-a12b',
-  'step': 'stepfun-ai/step-5-preview'
+  'step': 'stepfun-ai/step-5-preview',
+  'bolt': 'nvidia/nemotron-3.5-bolt-e4b',
+  'minimax': 'minimaxai/minimax-m3.1-flash'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
